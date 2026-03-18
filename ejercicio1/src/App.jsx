@@ -13,6 +13,14 @@ import CloseButton from './components/CloseButton'
 import Collapse from './components/Collapse'
 import Dropdown from './components/Dropdown'
 import ListGroup from './components/ListGroup'
+import Modal from './components/Modal'
+import Navbar from './components/Navbar'
+import Offcanvas from './components/Offcanvas'
+import Pagination from './components/Pagination'
+import Placeholder from './components/Placeholder'
+import Popover from './components/Popover'
+import Spinner from './components/Spinner'
+import Toast from './components/Toast'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,7 +52,23 @@ function App() {
         <Dropdown/>
 
         <ListGroup/>
-          
+
+        <Modal/>
+
+        <Navbar/>
+
+        <Offcanvas/>
+
+        <Pagination/>
+
+        <Placeholder/>
+
+        <Popover/>
+
+        <Spinner/>
+
+        <Toast/>
+        
       </div>
     </>
   )
